@@ -1,4 +1,3 @@
-# simulation.py
 from .fifo import FIFO
 from .lru import LRU
 from .mru import MRU
@@ -31,30 +30,43 @@ def simulate_algorithm(algorithm_class, page_references, frames, page_size):
 
 def main(data_file):
     page_references = read_page_references(data_file)
-    
-    for page_size in PAGE_SIZES:
-        for frames in FRAME_NUMBERS:
-            # Calculate the number of unique pages for the current page size
-            num_pages = len(set(page_reference // page_size for page_reference in page_references))
-            
-            print(f"\nSIMULATION: PAGE SIZE {page_size} WORDS AND {frames} FRAMES")
-            print(f"TOTAL # OF PAGES: {num_pages}")
+    with open('VMEMMAN/Report.md', 'w') as report:
+        report.write("James Tieu\n")
+        report.write("Spring 2024\n")
+        report.write("CS471\n")
+        for page_size in PAGE_SIZES:
+            for frames in FRAME_NUMBERS:
+                num_pages = len(set(page_reference // page_size for page_reference in page_references))
 
-            results = {}  # Store the results for each algorithm
+                simulation_header = (
+                    f"\nSIMULATION: PAGE SIZE {page_size} WORDS AND {frames} FRAMES\n"
+                    f"TOTAL # OF PAGES: {num_pages}\n"
+                )
+                print(simulation_header, end='')
+                report.write(simulation_header)
 
-            for algorithm_class, alg_name in [
-                (FIFO, 'FIFO'), 
-                (LRU, 'LRU'), 
-                (MRU, 'MRU'), 
-                (Optimal, 'Optimal')
-            ]:
-                fault_percentage = simulate_algorithm(algorithm_class, page_references, frames, page_size)
-                results[alg_name] = fault_percentage
+                results = {}
 
-            print("\nSUMMARY OF CURRENT RUN:")
-            for alg_name, fault_percentage in results.items():
-                print(f"Page Size: {page_size}, Number of Pages: {num_pages}, "
-                      f"Algorithm: {alg_name}, Page Fault Percentage: {fault_percentage:.2f}%")
+                for algorithm_class, alg_name in [
+                    (FIFO, 'FIFO'),
+                    (LRU, 'LRU'),
+                    (MRU, 'MRU'),
+                    (Optimal, 'Optimal')
+                ]:
+                    fault_percentage = simulate_algorithm(algorithm_class, page_references, frames, page_size)
+                    results[alg_name] = fault_percentage
+
+                summary_header = "\nSUMMARY OF CURRENT RUN:\n"
+                print(summary_header, end='')
+                report.write(summary_header)
+
+                for alg_name, fault_percentage in results.items():
+                    summary_line = (
+                        f"Page Size: {page_size}, Number of Pages: {num_pages}, "
+                        f"Algorithm: {alg_name}, Page Fault Percentage: {fault_percentage:.2f}%\n"
+                    )
+                    print(summary_line, end='')
+                    report.write(summary_line)
 
             
 if __name__ == '__main__':
