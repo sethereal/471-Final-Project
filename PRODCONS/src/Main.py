@@ -1,42 +1,29 @@
-# main.py
-from SharedBuffer import SharedBuffer
-from ProducerClass import ProducerClass
-from ConsumerClass import ConsumerClass
 from GlobalStats import GlobalStats
-import threading
+from StoreSimulation import StoreSimulation
+
 
 def main():
-    # Create the SharedBuffer instance
-    shared_buffer = SharedBuffer(capacity=10)
+    # define global statistics
+    global_stats = GlobalStats()
 
-    # Create the global statistics objects
-    storewide_total = GlobalStats()
-    month_total = GlobalStats()
-    aggregate_total = GlobalStats()
+    # p1, c1
+    store_simulation_1 = StoreSimulation(2, 2)
 
-    # Create the Producer instances and start them as threads
-    producers = [threading.Thread(target=ProducerClass(shared_buffer).run) for _ in range(2)]  # Assuming 2 producers
+    # run simulations
+    store_simulation_1.Run()
 
-    # Create the Consumer instances and start them as threads
-    consumers = [threading.Thread(target=ConsumerClass(shared_buffer, storewide_total, month_total, aggregate_total).consume) for _ in range(2)]  # Assuming 2 consumers
+    # get local statistics
+    global_stats_1, _ = store_simulation_1.GetStats()
 
-    # Start the producers and consumers
-    for producer in producers:
-        producer.start()
-    for consumer in consumers:
-        consumer.start()
+    # tally local stats into global stats
+    global_stats_1 = global_stats.update(global_stats_1[0], global_stats_1[1], global_stats_1[2])
 
-    # Wait for the producers and consumers to finish
-    for producer in producers:
-        producer.join()
-    for consumer in consumers:
-        consumer.join()
+    print("All consumers have finished computing their local statistics.")
 
-    # Print the final global statistics
     print("Global Statistics:")
-    print(f"Storewide Total: {storewide_total.storewide_total}")
-    print(f"Month-wise Total: {month_total.month_total}")
-    print(f"Aggregate Total: {aggregate_total.aggregate_total}")
+    print(f"Store Total: {round(global_stats_1[0], 2)}")
+    print(f"Month-wise Total: {round(global_stats_1[1], 2)}")
+    print(f"Aggregate Total: {round(global_stats_1[2], 2)}")
 
 if __name__ == "__main__":
     main()
