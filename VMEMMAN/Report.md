@@ -1,39 +1,20 @@
-James Tieu
-Spring 2024
-CS471
+# CS471 Spring 2024: Virtual Memory Management Problem
 
-SIMULATION: PAGE SIZE 512 WORDS AND 4 FRAMES
-TOTAL # OF PAGES: 196
+## James Tieu
 
-SUMMARY OF CURRENT RUN:
-Page Size: 512, Number of Pages: 196, Algorithm: FIFO, Page Fault Percentage: 99.97%
-Page Size: 512, Number of Pages: 196, Algorithm: LRU, Page Fault Percentage: 99.97%
-Page Size: 512, Number of Pages: 196, Algorithm: MRU, Page Fault Percentage: 100.00%
-Page Size: 512, Number of Pages: 196, Algorithm: Optimal, Page Fault Percentage: 99.23%
+# Findings
+- All algorithms, except Optimal, show a page fault percentage close to 100%, which is unusually high and suggests that either the page reference pattern is highly diverse (leading to few repetitions and thus many faults), or there is an issue with the simulation logic.
 
-SIMULATION: PAGE SIZE 512 WORDS AND 12 FRAMES
-TOTAL # OF PAGES: 196
+- As expected, the Optimal algorithm consistently outperforms the other three algorithms, demonstrating lower page fault percentages. This is in line with the understanding that the Optimal algorithm has future knowledge, allowing it to minimize page faults.
 
-SUMMARY OF CURRENT RUN:
-Page Size: 512, Number of Pages: 196, Algorithm: FIFO, Page Fault Percentage: 99.97%
-Page Size: 512, Number of Pages: 196, Algorithm: LRU, Page Fault Percentage: 99.97%
-Page Size: 512, Number of Pages: 196, Algorithm: MRU, Page Fault Percentage: 100.00%
-Page Size: 512, Number of Pages: 196, Algorithm: Optimal, Page Fault Percentage: 99.20%
+- Increasing the number of frames from 4 to 12 does not appear to significantly affect the page fault percentages for FIFO, LRU, and MRU algorithms. This could indicate that most page references are unique, causing high page turnover and faults regardless of the number of frames.
 
-SIMULATION: PAGE SIZE 2048 WORDS AND 4 FRAMES
-TOTAL # OF PAGES: 49
+# Conclusions
+- The Optimal algorithm's lower page fault percentages confirms its advantage over the other algorithsm when full knowledge of future requests is available.
 
-SUMMARY OF CURRENT RUN:
-Page Size: 2048, Number of Pages: 49, Algorithm: FIFO, Page Fault Percentage: 99.97%
-Page Size: 2048, Number of Pages: 49, Algorithm: LRU, Page Fault Percentage: 99.97%
-Page Size: 2048, Number of Pages: 49, Algorithm: MRU, Page Fault Percentage: 100.00%
-Page Size: 2048, Number of Pages: 49, Algorithm: Optimal, Page Fault Percentage: 99.23%
+- The similar page fault percentages for FIFO, LRU, and MRU suggest that for this particular set of page references, all three algorithms perform similarly under high page diversity.
 
-SIMULATION: PAGE SIZE 2048 WORDS AND 12 FRAMES
-TOTAL # OF PAGES: 49
+- The lack of improvement with increased frames may point to an issue with the data set's diversity or a possible flaw with the simulation logic.
 
-SUMMARY OF CURRENT RUN:
-Page Size: 2048, Number of Pages: 49, Algorithm: FIFO, Page Fault Percentage: 99.97%
-Page Size: 2048, Number of Pages: 49, Algorithm: LRU, Page Fault Percentage: 99.97%
-Page Size: 2048, Number of Pages: 49, Algorithm: MRU, Page Fault Percentage: 100.00%
-Page Size: 2048, Number of Pages: 49, Algorithm: Optimal, Page Fault Percentage: 99.20%
+
+
