@@ -1,0 +1,838 @@
+Producer 1 finished generating 500 items.
+Producer 2 finished generating 500 items.
+
+Local Statistics for StoreSimulation(p=2, c=2):
+==================================================
+Consumer 1 Local Statistics:
+Store 1 Storewide Total: 133131.62
+Store 2 Storewide Total: 138237.10
+
+Store 1 Monthly Totals:
+[Jan: 14219.55, Feb: 9886.70, Mar: 14835.52, Apr: 6859.75, May: 9129.22, Jun: 12887.58, Jul: 13343.43, Aug: 5268.25, Sep: 10684.29, Oct: 14578.12, Nov: 6908.81, Dec: 14530.41]
+
+Store 2 Monthly Totals:
+[Jan: 11067.35, Feb: 11163.56, Mar: 12618.05, Apr: 12200.46, May: 9223.91, Jun: 10328.64, Jul: 15232.91, Aug: 13553.81, Sep: 11842.49, Oct: 13839.84, Nov: 9030.91, Dec: 8135.17]
+
+Consumer 1 Aggregate Total: 271368.72
+
+Consumer 2 Local Statistics:
+Store 2 Storewide Total: 117556.62
+Store 1 Storewide Total: 120921.56
+
+Store 2 Monthly Totals:
+[Jan: 11440.42, Feb: 7022.64, Mar: 10187.06, Apr: 10162.15, May: 10250.13, Jun: 7819.86, Jul: 6192.52, Aug: 12181.79, Sep: 7001.15, Oct: 11778.34, Nov: 9421.84, Dec: 14098.72]
+
+Store 1 Monthly Totals:
+[Jan: 11190.60, Feb: 14504.86, Mar: 11897.06, Apr: 10467.33, May: 5060.78, Jun: 5380.53, Jul: 11273.85, Aug: 9946.32, Sep: 10974.05, Oct: 16305.40, Nov: 6238.38, Dec: 7682.41]
+
+Consumer 2 Aggregate Total: 238478.18
+
+
+Global Statistics for StoreSimulation(p=2, c=2):
+==================================================
+Store 1 Storewide Total: 254053.18
+Store 2 Storewide Total: 255793.72
+
+Store 1 Monthly Totals:
+[Jan: 25410.15, Feb: 24391.56, Mar: 26732.58, Apr: 17327.07, May: 14190.00, Jun: 18268.11, Jul: 24617.27, Aug: 15214.57, Sep: 21658.34, Oct: 30883.52, Nov: 13147.19, Dec: 22212.82]
+
+Store 2 Monthly Totals:
+[Jan: 22507.78, Feb: 18186.20, Mar: 22805.10, Apr: 22362.61, May: 19474.05, Jun: 18148.50, Jul: 21425.43, Aug: 25735.60, Sep: 18843.64, Oct: 25618.18, Nov: 18452.74, Dec: 22233.89]
+
+Aggregate Total: 509846.90
+Total Simulation Time: 27.87 seconds
+==================================================
+
+Producer 2 finished generating 500 items.
+Producer 1 finished generating 500 items.
+
+Local Statistics for StoreSimulation(p=2, c=10):
+==================================================
+Consumer 1 Local Statistics:
+Store 1 Storewide Total: 27554.32
+Store 2 Storewide Total: 26279.82
+
+Store 1 Monthly Totals:
+[Jan: 4221.71, Feb: 3336.17, Mar: 1975.33, Apr: 776.99, May: 1543.88, Jun: 3632.96, Jul: 1893.71, Aug: 3999.80, Sep: 786.96, Oct: 1671.14, Nov: 2757.45, Dec: 958.22]
+
+Store 2 Monthly Totals:
+[Jan: 710.00, Feb: 378.29, Mar: 3105.50, Apr: 889.69, May: 1243.20, Jun: 2506.14, Jul: 648.61, Aug: 950.19, Sep: 2435.22, Oct: 2801.07, Nov: 6049.12, Dec: 4562.81]
+
+Consumer 1 Aggregate Total: 53834.14
+
+Consumer 2 Local Statistics:
+Store 2 Storewide Total: 24620.44
+Store 1 Storewide Total: 25034.61
+
+Store 2 Monthly Totals:
+[Jan: 3426.62, Feb: 2012.40, Mar: 1425.10, Apr: 2253.25, May: 1417.61, Jun: 1989.21, Jul: 4147.78, Aug: 492.56, Sep: 2528.37, Oct: 2113.38, Nov: 1719.79, Dec: 1094.39]
+
+Store 1 Monthly Totals:
+[Jan: 1411.80, Feb: 2578.24, Mar: 1426.13, Apr: 2221.85, May: 3803.17, Jun: 2083.90, Jul: 2853.12, Aug: 471.59, Sep: 1567.42, Oct: 3971.60, Nov: 616.30, Dec: 2029.50]
+
+Consumer 2 Aggregate Total: 49655.06
+
+Consumer 3 Local Statistics:
+Store 1 Storewide Total: 31237.38
+Store 2 Storewide Total: 27433.56
+
+Store 1 Monthly Totals:
+[Jan: 1712.95, Feb: 3172.17, Mar: 3605.47, Apr: 1694.91, May: 3118.97, Jun: 1943.02, Jul: 4578.61, Aug: 3638.54, Sep: 1808.61, Oct: 3127.33, Nov: 337.83, Dec: 2498.96]
+
+Store 2 Monthly Totals:
+[Jan: 2165.66, Feb: 4674.04, Mar: 2600.62, Apr: 1946.44, May: 3066.48, Jun: 1212.31, Jul: 1628.29, Aug: 2139.54, Sep: 2247.20, Oct: 2182.18, Nov: 1850.36, Dec: 1720.45]
+
+Consumer 3 Aggregate Total: 58670.94
+
+Consumer 4 Local Statistics:
+Store 2 Storewide Total: 20510.90
+Store 1 Storewide Total: 26293.81
+
+Store 2 Monthly Totals:
+[Jan: 2527.06, Feb: 2761.94, Mar: 1247.40, Apr: 1160.40, May: 936.12, Jun: 2817.81, Jul: 3746.66, Aug: 1512.23, Sep: 1172.10, Oct: 961.79, Nov: 1074.88, Dec: 592.50]
+
+Store 1 Monthly Totals:
+[Jan: 686.22, Feb: 2837.59, Mar: 1942.30, Apr: 3832.52, May: 2654.37, Jun: 1435.19, Jul: 2698.16, Aug: 3772.45, Sep: 850.66, Oct: 1994.12, Nov: 2387.46, Dec: 1202.76]
+
+Consumer 4 Aggregate Total: 46804.71
+
+Consumer 5 Local Statistics:
+Store 2 Storewide Total: 22291.60
+Store 1 Storewide Total: 18816.82
+
+Store 2 Monthly Totals:
+[Jan: 2037.78, Feb: 1639.31, Mar: 825.98, Apr: 1557.18, May: 2821.35, Jun: 2454.07, Jul: 4299.29, Aug: 1405.99, Sep: 285.49, Oct: 1196.10, Nov: 1988.64, Dec: 1780.42]
+
+Store 1 Monthly Totals:
+[Jan: 2278.69, Feb: 0.00, Mar: 1420.51, Apr: 2857.48, May: 1957.03, Jun: 1697.24, Jul: 1487.89, Aug: 1349.07, Sep: 727.54, Oct: 1252.56, Nov: 2378.72, Dec: 1410.08]
+
+Consumer 5 Aggregate Total: 41108.42
+
+Consumer 6 Local Statistics:
+Store 2 Storewide Total: 26956.74
+Store 1 Storewide Total: 18877.00
+
+Store 2 Monthly Totals:
+[Jan: 3136.21, Feb: 0.00, Mar: 3787.85, Apr: 1095.72, May: 585.13, Jun: 2687.86, Jul: 4868.52, Aug: 2235.65, Sep: 2318.73, Oct: 1975.27, Nov: 2579.03, Dec: 1686.76]
+
+Store 1 Monthly Totals:
+[Jan: 2659.90, Feb: 2285.56, Mar: 2104.86, Apr: 753.33, May: 1093.48, Jun: 722.58, Jul: 1133.21, Aug: 1198.25, Sep: 1888.12, Oct: 1949.96, Nov: 936.46, Dec: 2151.28]
+
+Consumer 6 Aggregate Total: 45833.73
+
+Consumer 7 Local Statistics:
+Store 2 Storewide Total: 25337.30
+Store 1 Storewide Total: 21999.16
+
+Store 2 Monthly Totals:
+[Jan: 4047.91, Feb: 3962.55, Mar: 758.66, Apr: 3340.94, May: 1784.84, Jun: 1090.87, Jul: 1760.66, Aug: 1279.63, Sep: 2247.93, Oct: 1010.98, Nov: 2275.63, Dec: 1776.70]
+
+Store 1 Monthly Totals:
+[Jan: 1308.71, Feb: 899.85, Mar: 2656.61, Apr: 1239.75, May: 3660.33, Jun: 537.78, Jul: 3489.93, Aug: 441.36, Sep: 592.20, Oct: 2162.13, Nov: 2086.54, Dec: 2923.97]
+
+Consumer 7 Aggregate Total: 47336.46
+
+Consumer 8 Local Statistics:
+Store 2 Storewide Total: 26198.89
+Store 1 Storewide Total: 24905.61
+
+Store 2 Monthly Totals:
+[Jan: 3581.95, Feb: 1715.60, Mar: 2644.75, Apr: 4759.93, May: 613.53, Jun: 1669.18, Jul: 709.00, Aug: 2078.86, Sep: 3096.90, Oct: 2076.39, Nov: 1916.10, Dec: 1336.69]
+
+Store 1 Monthly Totals:
+[Jan: 1051.96, Feb: 2119.44, Mar: 2801.81, Apr: 3333.50, May: 4263.00, Jun: 1205.28, Jul: 1789.38, Aug: 496.15, Sep: 1226.17, Oct: 1805.67, Nov: 1037.13, Dec: 3776.12]
+
+Consumer 8 Aggregate Total: 51104.51
+
+Consumer 9 Local Statistics:
+Store 1 Storewide Total: 22272.68
+Store 2 Storewide Total: 25774.03
+
+Store 1 Monthly Totals:
+[Jan: 1893.54, Feb: 909.35, Mar: 1723.71, Apr: 1939.01, May: 192.07, Jun: 1725.71, Jul: 3892.71, Aug: 921.25, Sep: 1568.56, Oct: 4608.72, Nov: 1008.63, Dec: 1889.42]
+
+Store 2 Monthly Totals:
+[Jan: 1421.95, Feb: 4876.97, Mar: 3540.58, Apr: 2445.05, May: 1271.44, Jun: 1732.51, Jul: 2487.58, Aug: 2176.56, Sep: 2603.18, Oct: 1384.56, Nov: 813.60, Dec: 1020.07]
+
+Consumer 9 Aggregate Total: 48046.71
+
+Consumer 10 Local Statistics:
+Store 2 Storewide Total: 23319.82
+Store 1 Storewide Total: 22642.57
+
+Store 2 Monthly Totals:
+[Jan: 1999.97, Feb: 2421.39, Mar: 3035.64, Apr: 2014.56, May: 2533.50, Jun: 2340.32, Jul: 2186.21, Aug: 2840.90, Sep: 1754.39, Oct: 0.00, Nov: 1351.61, Dec: 841.32]
+
+Store 1 Monthly Totals:
+[Jan: 4140.88, Feb: 1357.35, Mar: 1197.09, Apr: 887.94, May: 1862.04, Jun: 2006.62, Jul: 5215.96, Aug: 107.95, Sep: 899.72, Oct: 3204.26, Nov: 474.60, Dec: 1288.16]
+
+Consumer 10 Aggregate Total: 45962.39
+
+
+Global Statistics for StoreSimulation(p=2, c=10):
+==================================================
+Store 1 Storewide Total: 239633.96
+Store 2 Storewide Total: 248723.11
+
+Store 1 Monthly Totals:
+[Jan: 21366.38, Feb: 19495.72, Mar: 20853.83, Apr: 19537.28, May: 24148.33, Jun: 16990.28, Jul: 29032.68, Aug: 16396.40, Sep: 11915.96, Oct: 25747.50, Nov: 14021.13, Dec: 20128.48]
+
+Store 2 Monthly Totals:
+[Jan: 25055.10, Feb: 24442.49, Mar: 22972.09, Apr: 21463.16, May: 16273.20, Jun: 20500.29, Jul: 26482.59, Aug: 17112.10, Sep: 20689.51, Oct: 15701.72, Nov: 21618.76, Dec: 16412.10]
+
+Aggregate Total: 488357.07
+Total Simulation Time: 99.91 seconds
+==================================================
+
+
+Producer 10 finished generating 500 items.
+Producer 4 finished generating 500 items.
+Producer 5 finished generating 500 items.
+Producer 2 finished generating 500 items.
+Producer 7 finished generating 500 items.
+Producer 6 finished generating 500 items.
+Producer 8 finished generating 500 items.
+Producer 1 finished generating 500 items.
+Producer 9 finished generating 500 items.
+Producer 3 finished generating 500 items.
+
+Local Statistics for StoreSimulation(p=10, c=2):
+==================================================
+Consumer 1 Local Statistics:
+Store 1 Storewide Total: 104844.83
+Store 2 Storewide Total: 121356.83
+Store 3 Storewide Total: 110988.34
+Store 4 Storewide Total: 108620.41
+Store 5 Storewide Total: 102576.19
+Store 6 Storewide Total: 116708.07
+Store 7 Storewide Total: 107955.63
+Store 8 Storewide Total: 111196.60
+Store 9 Storewide Total: 119351.65
+Store 10 Storewide Total: 114955.18
+
+Store 1 Monthly Totals:
+[Jan: 8501.70, Feb: 9078.96, Mar: 5047.86, Apr: 9588.44, May: 9668.36, Jun: 8550.61, Jul: 7858.00, Aug: 15819.44, Sep: 7231.21, Oct: 7928.17, Nov: 7994.29, Dec: 7577.78]
+
+Store 2 Monthly Totals:
+[Jan: 17658.83, Feb: 5656.30, Mar: 8695.86, Apr: 16253.23, May: 9047.24, Jun: 8014.87, Jul: 8041.86, Aug: 7168.13, Sep: 7553.44, Oct: 13502.94, Nov: 9966.09, Dec: 9798.03]
+
+Store 3 Monthly Totals:
+[Jan: 8738.91, Feb: 7224.43, Mar: 11858.55, Apr: 12285.82, May: 9992.20, Jun: 8799.39, Jul: 9445.18, Aug: 6510.66, Sep: 7953.13, Oct: 9222.89, Nov: 8241.51, Dec: 10715.68]
+
+Store 4 Monthly Totals:
+[Jan: 8713.41, Feb: 6834.84, Mar: 8431.08, Apr: 10296.09, May: 11055.94, Jun: 10303.10, Jul: 9167.71, Aug: 7225.55, Sep: 11814.29, Oct: 11555.42, Nov: 6580.45, Dec: 6642.54]
+
+Store 5 Monthly Totals:
+[Jan: 6847.67, Feb: 6755.86, Mar: 7917.81, Apr: 6674.80, May: 8149.07, Jun: 10218.82, Jul: 11594.86, Aug: 11145.52, Sep: 6368.56, Oct: 10730.92, Nov: 6767.98, Dec: 9404.31]
+
+Store 6 Monthly Totals:
+[Jan: 10728.80, Feb: 6650.70, Mar: 9195.58, Apr: 12692.34, May: 8839.45, Jun: 13890.55, Jul: 7223.73, Aug: 9910.05, Sep: 7032.50, Oct: 11619.08, Nov: 11716.08, Dec: 7209.22]
+
+Store 7 Monthly Totals:
+[Jan: 7940.51, Feb: 6935.41, Mar: 9031.53, Apr: 13312.91, May: 6652.30, Jun: 8527.11, Jul: 13477.76, Aug: 12480.87, Sep: 8140.89, Oct: 5107.57, Nov: 7991.44, Dec: 8357.33]
+
+Store 8 Monthly Totals:
+[Jan: 5793.89, Feb: 9075.62, Mar: 9912.23, Apr: 9505.49, May: 9698.05, Jun: 9925.19, Jul: 11065.73, Aug: 7373.62, Sep: 10971.51, Oct: 8182.35, Nov: 12430.76, Dec: 7262.17]
+
+Store 9 Monthly Totals:
+[Jan: 10706.58, Feb: 8438.55, Mar: 8909.66, Apr: 11374.48, May: 10681.63, Jun: 9023.32, Jul: 6826.24, Aug: 15701.71, Sep: 10423.57, Oct: 9161.80, Nov: 7114.27, Dec: 10989.84]
+
+Store 10 Monthly Totals:
+[Jan: 8681.76, Feb: 8234.75, Mar: 13243.59, Apr: 8409.08, May: 12205.93, Jun: 7847.68, Jul: 8999.82, Aug: 8515.77, Sep: 9079.12, Oct: 7203.95, Nov: 11375.71, Dec: 11158.02]
+
+Consumer 1 Aggregate Total: 1118553.72
+
+Consumer 2 Local Statistics:
+Store 8 Storewide Total: 141362.70
+Store 7 Storewide Total: 145931.84
+Store 3 Storewide Total: 140658.02
+Store 10 Storewide Total: 141946.87
+Store 6 Storewide Total: 133889.46
+Store 5 Storewide Total: 146230.23
+Store 2 Storewide Total: 128062.37
+Store 1 Storewide Total: 140211.19
+Store 9 Storewide Total: 124953.06
+Store 4 Storewide Total: 147424.46
+
+Store 8 Monthly Totals:
+[Jan: 10744.25, Feb: 9017.89, Mar: 12247.63, Apr: 12701.85, May: 8109.80, Jun: 17944.58, Jul: 15779.19, Aug: 6283.86, Sep: 14582.73, Oct: 12082.87, Nov: 7594.80, Dec: 14273.26]
+
+Store 7 Monthly Totals:
+[Jan: 13978.21, Feb: 13255.25, Mar: 18574.86, Apr: 9407.63, May: 13028.15, Jun: 7815.85, Jul: 14457.77, Aug: 11292.18, Sep: 12374.85, Oct: 9865.04, Nov: 10265.95, Dec: 11616.10]
+
+Store 3 Monthly Totals:
+[Jan: 8999.07, Feb: 12813.37, Mar: 11499.75, Apr: 14435.08, May: 9951.57, Jun: 10639.16, Jul: 18292.95, Aug: 10983.04, Sep: 13606.20, Oct: 9675.83, Nov: 8690.73, Dec: 11071.27]
+
+Store 10 Monthly Totals:
+[Jan: 12823.74, Feb: 9359.79, Mar: 14382.09, Apr: 10849.61, May: 7745.24, Jun: 15641.68, Jul: 14966.68, Aug: 10482.43, Sep: 10260.78, Oct: 10787.12, Nov: 13252.59, Dec: 11395.13]
+
+Store 6 Monthly Totals:
+[Jan: 4823.01, Feb: 7599.53, Mar: 15357.94, Apr: 17274.23, May: 9619.18, Jun: 12436.89, Jul: 11313.66, Aug: 10849.82, Sep: 13692.95, Oct: 11564.11, Nov: 3774.03, Dec: 15584.11]
+
+Store 5 Monthly Totals:
+[Jan: 9257.91, Feb: 15189.76, Mar: 12660.31, Apr: 10406.29, May: 14832.82, Jun: 12577.25, Jul: 12730.71, Aug: 8190.47, Sep: 13555.44, Oct: 6409.93, Nov: 16946.09, Dec: 13473.25]
+
+Store 2 Monthly Totals:
+[Jan: 8980.14, Feb: 10153.18, Mar: 13121.22, Apr: 9212.32, May: 13244.44, Jun: 14669.94, Jul: 11834.98, Aug: 7088.00, Sep: 9008.34, Oct: 5849.86, Nov: 13850.40, Dec: 11049.55]
+
+Store 1 Monthly Totals:
+[Jan: 10109.29, Feb: 6100.28, Mar: 14317.55, Apr: 8209.98, May: 13604.26, Jun: 14465.85, Jul: 11290.39, Aug: 13374.57, Sep: 12553.71, Oct: 12406.79, Nov: 13556.80, Dec: 10221.72]
+
+Store 9 Monthly Totals:
+[Jan: 9335.25, Feb: 11909.00, Mar: 9740.76, Apr: 10904.80, May: 10131.13, Jun: 8389.51, Jul: 8878.97, Aug: 11646.73, Sep: 10504.74, Oct: 14826.04, Nov: 8899.33, Dec: 9786.80]
+
+Store 4 Monthly Totals:
+[Jan: 10711.68, Feb: 10646.81, Mar: 8671.95, Apr: 8083.24, May: 15605.58, Jun: 16213.85, Jul: 14754.97, Aug: 10547.85, Sep: 18773.61, Oct: 9728.47, Nov: 12333.72, Dec: 11352.74]
+
+Consumer 2 Aggregate Total: 1390670.21
+
+
+Global Statistics for StoreSimulation(p=10, c=2):
+==================================================
+Store 1 Storewide Total: 245056.02
+Store 2 Storewide Total: 249419.20
+Store 3 Storewide Total: 251646.36
+Store 4 Storewide Total: 256044.87
+Store 5 Storewide Total: 248806.42
+Store 6 Storewide Total: 250597.52
+Store 7 Storewide Total: 253887.47
+Store 8 Storewide Total: 252559.30
+Store 9 Storewide Total: 244304.71
+Store 10 Storewide Total: 256902.05
+
+Store 1 Monthly Totals:
+[Jan: 18610.99, Feb: 15179.23, Mar: 19365.41, Apr: 17798.42, May: 23272.62, Jun: 23016.46, Jul: 19148.39, Aug: 29194.01, Sep: 19784.92, Oct: 20334.97, Nov: 21551.09, Dec: 17799.51]
+
+Store 2 Monthly Totals:
+[Jan: 26638.97, Feb: 15809.48, Mar: 21817.08, Apr: 25465.54, May: 22291.68, Jun: 22684.81, Jul: 19876.84, Aug: 14256.14, Sep: 16561.78, Oct: 19352.80, Nov: 23816.49, Dec: 20847.58]
+
+Store 3 Monthly Totals:
+[Jan: 17737.98, Feb: 20037.80, Mar: 23358.30, Apr: 26720.90, May: 19943.77, Jun: 19438.55, Jul: 27738.14, Aug: 17493.70, Sep: 21559.33, Oct: 18898.72, Nov: 16932.23, Dec: 21786.95]
+
+Store 4 Monthly Totals:
+[Jan: 19425.09, Feb: 17481.65, Mar: 17103.03, Apr: 18379.33, May: 26661.52, Jun: 26516.95, Jul: 23922.68, Aug: 17773.39, Sep: 30587.90, Oct: 21283.89, Nov: 18914.16, Dec: 17995.28]
+
+Store 5 Monthly Totals:
+[Jan: 16105.58, Feb: 21945.62, Mar: 20578.12, Apr: 17081.09, May: 22981.89, Jun: 22796.07, Jul: 24325.56, Aug: 19336.00, Sep: 19924.01, Oct: 17140.85, Nov: 23714.07, Dec: 22877.56]
+
+Store 6 Monthly Totals:
+[Jan: 15551.81, Feb: 14250.23, Mar: 24553.52, Apr: 29966.56, May: 18458.63, Jun: 26327.44, Jul: 18537.40, Aug: 20759.87, Sep: 20725.44, Oct: 23183.19, Nov: 15490.11, Dec: 22793.33]
+
+Store 7 Monthly Totals:
+[Jan: 21918.72, Feb: 20190.66, Mar: 27606.39, Apr: 22720.54, May: 19680.46, Jun: 16342.96, Jul: 27935.53, Aug: 23773.05, Sep: 20515.74, Oct: 14972.61, Nov: 18257.39, Dec: 19973.44]
+
+Store 8 Monthly Totals:
+[Jan: 16538.14, Feb: 18093.52, Mar: 22159.86, Apr: 22207.34, May: 17807.84, Jun: 27869.77, Jul: 26844.93, Aug: 13657.47, Sep: 25554.23, Oct: 20265.22, Nov: 20025.55, Dec: 21535.43]
+
+Store 9 Monthly Totals:
+[Jan: 20041.83, Feb: 20347.55, Mar: 18650.42, Apr: 22279.28, May: 20812.76, Jun: 17412.83, Jul: 15705.21, Aug: 27348.44, Sep: 20928.31, Oct: 23987.84, Nov: 16013.60, Dec: 20776.64]
+
+Store 10 Monthly Totals:
+[Jan: 21505.50, Feb: 17594.55, Mar: 27625.68, Apr: 19258.68, May: 19951.17, Jun: 23489.36, Jul: 23966.49, Aug: 18998.20, Sep: 19339.90, Oct: 17991.06, Nov: 24628.30, Dec: 22553.15]
+
+Aggregate Total: 2509223.93
+Total Simulation Time: 29.68 seconds
+==================================================
+
+
+
+Producer 1 finished generating 500 items.
+Producer 8 finished generating 500 items.
+Producer 7 finished generating 500 items.
+Producer 4 finished generating 500 items.
+Producer 2 finished generating 500 items.
+Producer 5 finished generating 500 items.
+Producer 9 finished generating 500 items.
+Producer 3 finished generating 500 items.
+Producer 6 finished generating 500 items.
+Producer 10 finished generating 500 items.
+
+Local Statistics for StoreSimulation(p=10, c=10):
+==================================================
+Consumer 1 Local Statistics:
+Store 1 Storewide Total: 30339.86
+Store 2 Storewide Total: 24885.17
+Store 3 Storewide Total: 30112.04
+Store 4 Storewide Total: 27113.82
+Store 5 Storewide Total: 20626.73
+Store 6 Storewide Total: 25688.67
+Store 7 Storewide Total: 24065.57
+Store 8 Storewide Total: 21332.13
+Store 9 Storewide Total: 25305.60
+Store 10 Storewide Total: 30742.14
+
+Store 1 Monthly Totals:
+[Jan: 5486.98, Feb: 5475.85, Mar: 4032.69, Apr: 3869.91, May: 1061.55, Jun: 1614.05, Jul: 2371.73, Aug: 505.27, Sep: 1452.23, Oct: 1020.09, Nov: 2847.04, Dec: 602.46]
+
+Store 2 Monthly Totals:
+[Jan: 5322.18, Feb: 1285.43, Mar: 890.47, Apr: 812.29, May: 2817.83, Jun: 1536.36, Jul: 2948.23, Aug: 746.62, Sep: 3515.49, Oct: 1673.92, Nov: 1488.73, Dec: 1847.62]
+
+Store 3 Monthly Totals:
+[Jan: 2784.84, Feb: 2694.86, Mar: 2259.16, Apr: 1756.85, May: 2073.57, Jun: 1820.07, Jul: 1782.92, Aug: 3151.23, Sep: 4815.39, Oct: 1360.04, Nov: 1995.43, Dec: 3617.69]
+
+Store 4 Monthly Totals:
+[Jan: 3722.09, Feb: 2687.87, Mar: 2028.27, Apr: 2700.38, May: 2743.91, Jun: 1588.62, Jul: 2059.08, Aug: 2938.98, Sep: 3522.84, Oct: 1048.96, Nov: 734.69, Dec: 1338.14]
+
+Store 5 Monthly Totals:
+[Jan: 1124.14, Feb: 3757.57, Mar: 0.00, Apr: 1431.63, May: 0.00, Jun: 296.50, Jul: 3136.72, Aug: 773.02, Sep: 2863.02, Oct: 3546.60, Nov: 2152.20, Dec: 1545.33]
+
+Store 6 Monthly Totals:
+[Jan: 4486.10, Feb: 1117.47, Mar: 75.45, Apr: 2977.41, May: 1779.45, Jun: 2378.33, Jul: 3490.93, Aug: 2168.25, Sep: 1549.48, Oct: 2676.18, Nov: 1502.78, Dec: 1486.84]
+
+Store 7 Monthly Totals:
+[Jan: 1555.64, Feb: 1926.64, Mar: 5095.92, Apr: 2567.05, May: 1608.04, Jun: 184.02, Jul: 892.78, Aug: 4152.32, Sep: 1682.11, Oct: 2361.84, Nov: 1240.67, Dec: 798.54]
+
+Store 8 Monthly Totals:
+[Jan: 344.82, Feb: 753.29, Mar: 2680.20, Apr: 1600.09, May: 2326.02, Jun: 1871.26, Jul: 336.37, Aug: 1799.31, Sep: 3302.71, Oct: 1818.28, Nov: 2373.93, Dec: 2125.84]
+
+Store 9 Monthly Totals:
+[Jan: 1313.80, Feb: 2512.89, Mar: 2914.07, Apr: 2291.38, May: 1838.10, Jun: 2238.09, Jul: 2154.79, Aug: 2628.97, Sep: 2726.26, Oct: 2395.19, Nov: 1986.21, Dec: 305.86]
+
+Store 10 Monthly Totals:
+[Jan: 3241.10, Feb: 5458.43, Mar: 3598.69, Apr: 2602.20, May: 1212.18, Jun: 1631.88, Jul: 833.24, Aug: 1063.64, Sep: 3165.15, Oct: 1843.32, Nov: 4525.83, Dec: 1566.47]
+
+Consumer 1 Aggregate Total: 260211.72
+
+Consumer 2 Local Statistics:
+Store 10 Storewide Total: 22925.43
+Store 3 Storewide Total: 25797.52
+Store 5 Storewide Total: 33695.45
+Store 6 Storewide Total: 33134.42
+Store 7 Storewide Total: 25817.77
+Store 4 Storewide Total: 34309.78
+Store 2 Storewide Total: 30138.27
+Store 9 Storewide Total: 27342.80
+Store 8 Storewide Total: 25837.07
+Store 1 Storewide Total: 29140.38
+
+Store 10 Monthly Totals:
+[Jan: 1079.55, Feb: 2851.77, Mar: 1620.27, Apr: 1578.34, May: 2408.75, Jun: 1022.45, Jul: 524.70, Aug: 2323.35, Sep: 3845.88, Oct: 2991.58, Nov: 988.29, Dec: 1690.49]
+
+Store 3 Monthly Totals:
+[Jan: 2626.08, Feb: 1415.92, Mar: 2054.00, Apr: 1027.21, May: 0.00, Jun: 2387.96, Jul: 1677.20, Aug: 1692.37, Sep: 2752.33, Oct: 2292.55, Nov: 4142.27, Dec: 3729.62]
+
+Store 5 Monthly Totals:
+[Jan: 2809.91, Feb: 3034.77, Mar: 3636.62, Apr: 3904.34, May: 2049.00, Jun: 1920.40, Jul: 3394.77, Aug: 2244.82, Sep: 3680.64, Oct: 371.44, Nov: 3708.10, Dec: 2940.65]
+
+Store 6 Monthly Totals:
+[Jan: 5383.02, Feb: 899.01, Mar: 3054.86, Apr: 3157.88, May: 1078.60, Jun: 3326.29, Jul: 2642.13, Aug: 2331.86, Sep: 1246.14, Oct: 3906.89, Nov: 3468.05, Dec: 2639.70]
+
+Store 7 Monthly Totals:
+[Jan: 574.76, Feb: 1491.65, Mar: 3578.38, Apr: 1057.94, May: 1507.07, Jun: 2254.26, Jul: 1400.20, Aug: 1184.44, Sep: 3990.83, Oct: 3715.48, Nov: 4486.10, Dec: 576.67]
+
+Store 4 Monthly Totals:
+[Jan: 3360.37, Feb: 4974.84, Mar: 1376.22, Apr: 3681.54, May: 4172.11, Jun: 3033.51, Jul: 3174.22, Aug: 1228.84, Sep: 2864.72, Oct: 1687.05, Nov: 3766.32, Dec: 990.04]
+
+Store 2 Monthly Totals:
+[Jan: 3410.07, Feb: 845.71, Mar: 2663.23, Apr: 1391.93, May: 2135.35, Jun: 3227.67, Jul: 2432.42, Aug: 2559.81, Sep: 4088.33, Oct: 2314.13, Nov: 2177.93, Dec: 2891.69]
+
+Store 9 Monthly Totals:
+[Jan: 1825.57, Feb: 249.34, Mar: 1886.18, Apr: 1739.82, May: 4909.81, Jun: 1675.34, Jul: 1190.33, Aug: 2044.87, Sep: 6515.21, Oct: 655.72, Nov: 2264.66, Dec: 2385.94]
+
+Store 8 Monthly Totals:
+[Jan: 1147.54, Feb: 1829.89, Mar: 2203.95, Apr: 3406.37, May: 2172.33, Jun: 3283.05, Jul: 1821.43, Aug: 2739.84, Sep: 691.83, Oct: 2120.82, Nov: 3543.13, Dec: 876.89]
+
+Store 1 Monthly Totals:
+[Jan: 1999.78, Feb: 1794.31, Mar: 4037.68, Apr: 1230.63, May: 1632.26, Jun: 2189.71, Jul: 3042.76, Aug: 5831.94, Sep: 1435.10, Oct: 1004.61, Nov: 3197.58, Dec: 1744.03]
+
+Consumer 2 Aggregate Total: 288138.89
+
+Consumer 3 Local Statistics:
+Store 2 Storewide Total: 29239.09
+Store 3 Storewide Total: 22525.82
+Store 5 Storewide Total: 31003.71
+Store 7 Storewide Total: 26900.69
+Store 4 Storewide Total: 34622.02
+Store 6 Storewide Total: 32330.37
+Store 10 Storewide Total: 30209.97
+Store 1 Storewide Total: 26080.57
+Store 8 Storewide Total: 31617.86
+Store 9 Storewide Total: 30924.37
+
+Store 2 Monthly Totals:
+[Jan: 1289.07, Feb: 1304.54, Mar: 5215.62, Apr: 100.42, May: 1333.16, Jun: 4744.20, Jul: 4884.20, Aug: 2307.74, Sep: 2569.96, Oct: 1665.70, Nov: 2532.37, Dec: 1292.11]
+
+Store 3 Monthly Totals:
+[Jan: 1538.53, Feb: 1680.29, Mar: 1222.58, Apr: 2808.06, May: 1921.52, Jun: 2528.88, Jul: 4960.08, Aug: 1026.15, Sep: 1920.65, Oct: 755.51, Nov: 1700.70, Dec: 462.88]
+
+Store 5 Monthly Totals:
+[Jan: 1742.70, Feb: 3455.76, Mar: 3105.62, Apr: 3703.37, May: 3744.96, Jun: 4275.82, Jul: 2952.78, Aug: 1031.28, Sep: 2018.43, Oct: 1499.26, Nov: 1232.70, Dec: 2241.04]
+
+Store 7 Monthly Totals:
+[Jan: 2977.85, Feb: 567.21, Mar: 1554.79, Apr: 1247.80, May: 1373.60, Jun: 3118.06, Jul: 2900.61, Aug: 3902.58, Sep: 1419.57, Oct: 2345.72, Nov: 3186.36, Dec: 2306.54]
+
+Store 4 Monthly Totals:
+[Jan: 2518.07, Feb: 1476.47, Mar: 4661.96, Apr: 1202.13, May: 1305.31, Jun: 2723.00, Jul: 4515.40, Aug: 4268.19, Sep: 2984.59, Oct: 3159.08, Nov: 3072.08, Dec: 2735.74]
+
+Store 6 Monthly Totals:
+[Jan: 2233.48, Feb: 1621.98, Mar: 867.63, Apr: 3015.90, May: 5030.26, Jun: 1753.99, Jul: 3584.43, Aug: 3814.80, Sep: 675.19, Oct: 2785.10, Nov: 3158.63, Dec: 3788.97]
+
+Store 10 Monthly Totals:
+[Jan: 2692.70, Feb: 1241.13, Mar: 3609.81, Apr: 832.87, May: 3201.80, Jun: 1455.91, Jul: 1273.22, Aug: 3815.12, Sep: 3969.58, Oct: 5119.85, Nov: 419.06, Dec: 2578.91]
+
+Store 1 Monthly Totals:
+[Jan: 3747.13, Feb: 920.83, Mar: 1355.16, Apr: 356.75, May: 2597.87, Jun: 1124.30, Jul: 2084.60, Aug: 3400.75, Sep: 3146.27, Oct: 2304.15, Nov: 1747.05, Dec: 3295.71]
+
+Store 8 Monthly Totals:
+[Jan: 1170.14, Feb: 2661.83, Mar: 3934.25, Apr: 3172.32, May: 4640.04, Jun: 1768.44, Jul: 2657.72, Aug: 2226.29, Sep: 2130.89, Oct: 2665.38, Nov: 2329.12, Dec: 2261.46]
+
+Store 9 Monthly Totals:
+[Jan: 2067.76, Feb: 908.13, Mar: 2333.93, Apr: 4387.90, May: 5350.08, Jun: 1974.44, Jul: 2029.38, Aug: 4776.68, Sep: 1658.51, Oct: 682.62, Nov: 630.53, Dec: 4124.41]
+
+Consumer 3 Aggregate Total: 295454.47
+
+Consumer 4 Local Statistics:
+Store 5 Storewide Total: 26674.13
+Store 2 Storewide Total: 31905.69
+Store 1 Storewide Total: 26492.13
+Store 6 Storewide Total: 25322.07
+Store 7 Storewide Total: 27859.49
+Store 10 Storewide Total: 29212.51
+Store 3 Storewide Total: 23479.73
+Store 4 Storewide Total: 19775.18
+Store 9 Storewide Total: 26409.25
+Store 8 Storewide Total: 24988.36
+
+Store 5 Monthly Totals:
+[Jan: 1482.27, Feb: 1775.31, Mar: 3260.13, Apr: 1786.71, May: 1600.43, Jun: 4629.34, Jul: 662.83, Aug: 2516.03, Sep: 4387.68, Oct: 1898.35, Nov: 1564.58, Dec: 1110.48]
+
+Store 2 Monthly Totals:
+[Jan: 3425.54, Feb: 4729.48, Mar: 3180.67, Apr: 1723.93, May: 3177.53, Jun: 2859.88, Jul: 1651.72, Aug: 2273.29, Sep: 2267.71, Oct: 1900.90, Nov: 2761.03, Dec: 1954.01]
+
+Store 1 Monthly Totals:
+[Jan: 4784.22, Feb: 3649.14, Mar: 1415.58, Apr: 2199.12, May: 2815.31, Jun: 1937.98, Jul: 1593.73, Aug: 2649.09, Sep: 1582.86, Oct: 771.13, Nov: 2403.61, Dec: 690.36]
+
+Store 6 Monthly Totals:
+[Jan: 1278.79, Feb: 4515.32, Mar: 1211.20, Apr: 3865.16, May: 2460.64, Jun: 1010.12, Jul: 810.49, Aug: 1125.83, Sep: 3546.72, Oct: 3456.49, Nov: 999.39, Dec: 1041.93]
+
+Store 7 Monthly Totals:
+[Jan: 1753.50, Feb: 645.12, Mar: 2720.18, Apr: 2641.59, May: 3187.74, Jun: 4380.18, Jul: 2978.81, Aug: 607.82, Sep: 2741.98, Oct: 130.90, Nov: 4619.98, Dec: 1451.69]
+
+Store 10 Monthly Totals:
+[Jan: 1145.85, Feb: 1822.27, Mar: 3849.19, Apr: 3316.99, May: 2773.43, Jun: 3279.84, Jul: 2213.35, Aug: 577.39, Sep: 3383.76, Oct: 488.06, Nov: 3538.88, Dec: 2823.51]
+
+Store 3 Monthly Totals:
+[Jan: 1795.05, Feb: 3555.63, Mar: 1033.67, Apr: 2992.80, May: 1083.81, Jun: 2556.58, Jul: 2815.46, Aug: 751.52, Sep: 1480.93, Oct: 3075.84, Nov: 1445.56, Dec: 892.88]
+
+Store 4 Monthly Totals:
+[Jan: 7.46, Feb: 750.90, Mar: 2624.67, Apr: 3684.83, May: 814.47, Jun: 1546.82, Jul: 1453.03, Aug: 2474.10, Sep: 1560.19, Oct: 2442.77, Nov: 819.25, Dec: 1596.69]
+
+Store 9 Monthly Totals:
+[Jan: 3144.77, Feb: 2991.45, Mar: 1507.73, Apr: 2390.11, May: 3160.06, Jun: 1621.98, Jul: 3229.72, Aug: 1698.65, Sep: 0.00, Oct: 1098.02, Nov: 2451.15, Dec: 3115.61]
+
+Store 8 Monthly Totals:
+[Jan: 4030.07, Feb: 3900.34, Mar: 274.30, Apr: 282.08, May: 3074.06, Jun: 3950.28, Jul: 1507.38, Aug: 1012.21, Sep: 1773.45, Oct: 1850.38, Nov: 848.52, Dec: 2485.28]
+
+Consumer 4 Aggregate Total: 262118.54
+
+Consumer 5 Local Statistics:
+Store 8 Storewide Total: 35097.19
+Store 2 Storewide Total: 27351.86
+Store 7 Storewide Total: 22813.79
+Store 3 Storewide Total: 32083.16
+Store 5 Storewide Total: 26676.44
+Store 10 Storewide Total: 20876.83
+Store 4 Storewide Total: 30402.44
+Store 1 Storewide Total: 24451.98
+Store 6 Storewide Total: 26393.35
+Store 9 Storewide Total: 25785.22
+
+Store 8 Monthly Totals:
+[Jan: 2252.25, Feb: 2186.88, Mar: 1610.89, Apr: 3100.47, May: 3586.57, Jun: 4819.84, Jul: 2330.10, Aug: 3564.74, Sep: 2302.70, Oct: 2033.34, Nov: 3574.27, Dec: 3735.13]
+
+Store 2 Monthly Totals:
+[Jan: 1450.50, Feb: 2541.45, Mar: 2423.08, Apr: 2347.02, May: 1408.89, Jun: 1628.90, Jul: 1742.48, Aug: 2683.94, Sep: 5191.34, Oct: 3004.43, Nov: 2929.84, Dec: 0.00]
+
+Store 7 Monthly Totals:
+[Jan: 930.39, Feb: 734.46, Mar: 0.00, Apr: 2670.76, May: 2175.60, Jun: 2110.00, Jul: 2646.36, Aug: 1765.62, Sep: 3362.39, Oct: 288.72, Nov: 3285.99, Dec: 2843.50]
+
+Store 3 Monthly Totals:
+[Jan: 3211.66, Feb: 1192.62, Mar: 2946.86, Apr: 4323.31, May: 3701.40, Jun: 3612.92, Jul: 458.66, Aug: 2608.52, Sep: 3410.44, Oct: 1997.01, Nov: 1780.15, Dec: 2839.59]
+
+Store 5 Monthly Totals:
+[Jan: 2683.09, Feb: 686.04, Mar: 2885.36, Apr: 2020.63, May: 1728.98, Jun: 1384.09, Jul: 3124.45, Aug: 3693.52, Sep: 1792.75, Oct: 3395.81, Nov: 1579.48, Dec: 1702.26]
+
+Store 10 Monthly Totals:
+[Jan: 2106.10, Feb: 1437.00, Mar: 2325.57, Apr: 1932.84, May: 18.33, Jun: 2149.64, Jul: 676.87, Aug: 2695.53, Sep: 1747.19, Oct: 2670.00, Nov: 1141.20, Dec: 1976.58]
+
+Store 4 Monthly Totals:
+[Jan: 3143.50, Feb: 3219.54, Mar: 3083.79, Apr: 1322.76, May: 3706.02, Jun: 2285.30, Jul: 2094.38, Aug: 2028.41, Sep: 493.92, Oct: 5242.52, Nov: 1127.20, Dec: 2655.10]
+
+Store 1 Monthly Totals:
+[Jan: 916.34, Feb: 3400.01, Mar: 1574.13, Apr: 1077.87, May: 1338.84, Jun: 1466.89, Jul: 3064.45, Aug: 3485.39, Sep: 2079.62, Oct: 1471.82, Nov: 1470.05, Dec: 3106.57]
+
+Store 6 Monthly Totals:
+[Jan: 3221.14, Feb: 3016.57, Mar: 904.61, Apr: 1090.37, May: 2276.46, Jun: 1150.75, Jul: 289.84, Aug: 4571.27, Sep: 2831.37, Oct: 3749.89, Nov: 2808.44, Dec: 482.64]
+
+Store 9 Monthly Totals:
+[Jan: 3452.41, Feb: 1551.08, Mar: 464.30, Apr: 2367.15, May: 3172.57, Jun: 2855.14, Jul: 1574.45, Aug: 3308.31, Sep: 786.27, Oct: 1888.79, Nov: 2461.26, Dec: 1903.50]
+
+Consumer 5 Aggregate Total: 271932.28
+
+Consumer 6 Local Statistics:
+Store 1 Storewide Total: 27672.21
+Store 3 Storewide Total: 28519.62
+Store 10 Storewide Total: 29264.28
+Store 6 Storewide Total: 26450.05
+Store 9 Storewide Total: 25896.38
+Store 2 Storewide Total: 21970.61
+Store 7 Storewide Total: 31464.83
+Store 5 Storewide Total: 28220.33
+Store 8 Storewide Total: 27764.05
+Store 4 Storewide Total: 28566.41
+
+Store 1 Monthly Totals:
+[Jan: 1615.30, Feb: 2751.06, Mar: 1927.70, Apr: 2208.88, May: 1810.46, Jun: 1872.16, Jul: 1815.39, Aug: 2165.29, Sep: 2385.54, Oct: 3796.84, Nov: 3681.87, Dec: 1641.72]
+
+Store 3 Monthly Totals:
+[Jan: 889.21, Feb: 1448.59, Mar: 2069.85, Apr: 4231.18, May: 2289.25, Jun: 1163.79, Jul: 1836.07, Aug: 1448.79, Sep: 5668.04, Oct: 2062.73, Nov: 730.90, Dec: 4681.22]
+
+Store 10 Monthly Totals:
+[Jan: 1996.52, Feb: 4748.31, Mar: 1645.20, Apr: 1783.12, May: 2046.62, Jun: 807.78, Jul: 376.10, Aug: 2313.89, Sep: 3565.16, Oct: 3584.24, Nov: 3581.84, Dec: 2815.49]
+
+Store 6 Monthly Totals:
+[Jan: 2736.89, Feb: 1915.88, Mar: 806.49, Apr: 2848.99, May: 2152.67, Jun: 4465.42, Jul: 669.94, Aug: 992.62, Sep: 3012.80, Oct: 2626.69, Nov: 2632.55, Dec: 1589.11]
+
+Store 9 Monthly Totals:
+[Jan: 947.62, Feb: 3722.57, Mar: 1607.87, Apr: 1257.83, May: 2971.99, Jun: 1600.16, Jul: 3636.27, Aug: 2176.74, Sep: 2040.37, Oct: 3635.61, Nov: 854.62, Dec: 1444.73]
+
+Store 2 Monthly Totals:
+[Jan: 3650.13, Feb: 2977.33, Mar: 1245.64, Apr: 3530.61, May: 724.22, Jun: 0.00, Jul: 1079.21, Aug: 2742.05, Sep: 734.95, Oct: 1272.92, Nov: 3116.48, Dec: 897.07]
+
+Store 7 Monthly Totals:
+[Jan: 1884.62, Feb: 1462.55, Mar: 5040.42, Apr: 1379.27, May: 2599.83, Jun: 1671.42, Jul: 3854.72, Aug: 4614.11, Sep: 1379.85, Oct: 1969.29, Nov: 3395.87, Dec: 2212.88]
+
+Store 5 Monthly Totals:
+[Jan: 2114.42, Feb: 6023.07, Mar: 3540.17, Apr: 410.21, May: 1368.30, Jun: 1768.09, Jul: 1395.21, Aug: 1349.32, Sep: 2710.63, Oct: 2621.38, Nov: 2137.28, Dec: 2782.25]
+
+Store 8 Monthly Totals:
+[Jan: 3010.01, Feb: 1412.83, Mar: 2592.20, Apr: 1535.96, May: 2879.41, Jun: 2695.18, Jul: 2721.77, Aug: 2296.50, Sep: 2298.73, Oct: 735.94, Nov: 3412.58, Dec: 2172.96]
+
+Store 4 Monthly Totals:
+[Jan: 3048.39, Feb: 2984.03, Mar: 354.33, Apr: 3023.81, May: 1174.86, Jun: 1592.09, Jul: 2748.39, Aug: 3859.51, Sep: 1467.15, Oct: 3157.50, Nov: 2452.39, Dec: 2703.97]
+
+Consumer 6 Aggregate Total: 275788.77
+
+Consumer 7 Local Statistics:
+Store 2 Storewide Total: 25279.25
+Store 6 Storewide Total: 21732.25
+Store 7 Storewide Total: 17236.48
+Store 4 Storewide Total: 21951.95
+Store 8 Storewide Total: 28313.80
+Store 5 Storewide Total: 20297.67
+Store 3 Storewide Total: 31729.09
+Store 1 Storewide Total: 26069.39
+Store 10 Storewide Total: 26084.63
+Store 9 Storewide Total: 26880.02
+
+Store 2 Monthly Totals:
+[Jan: 2084.61, Feb: 2017.19, Mar: 922.96, Apr: 1475.59, May: 2239.53, Jun: 1619.13, Jul: 889.89, Aug: 4280.32, Sep: 1350.25, Oct: 2567.53, Nov: 3383.81, Dec: 2448.43]
+
+Store 6 Monthly Totals:
+[Jan: 2442.71, Feb: 1916.33, Mar: 2320.60, Apr: 1418.67, May: 2275.06, Jun: 1415.64, Jul: 0.00, Aug: 1729.56, Sep: 1406.72, Oct: 1418.02, Nov: 2312.90, Dec: 3076.04]
+
+Store 7 Monthly Totals:
+[Jan: 750.44, Feb: 1050.08, Mar: 2858.03, Apr: 964.67, May: 1356.56, Jun: 589.59, Jul: 1492.46, Aug: 792.09, Sep: 1664.23, Oct: 2322.11, Nov: 2239.29, Dec: 1156.93]
+
+Store 4 Monthly Totals:
+[Jan: 2226.67, Feb: 3011.30, Mar: 451.50, Apr: 1936.44, May: 4741.00, Jun: 407.65, Jul: 0.00, Aug: 809.55, Sep: 815.08, Oct: 2899.69, Nov: 1853.36, Dec: 2799.70]
+
+Store 8 Monthly Totals:
+[Jan: 2958.42, Feb: 2724.25, Mar: 989.97, Apr: 1280.69, May: 420.73, Jun: 2298.01, Jul: 2291.80, Aug: 2879.23, Sep: 3443.34, Oct: 3360.55, Nov: 1383.16, Dec: 4283.65]
+
+Store 5 Monthly Totals:
+[Jan: 1426.23, Feb: 2436.25, Mar: 1361.40, Apr: 1322.37, May: 1799.49, Jun: 1706.90, Jul: 1799.87, Aug: 1163.24, Sep: 1204.63, Oct: 961.91, Nov: 1009.93, Dec: 4105.44]
+
+Store 3 Monthly Totals:
+[Jan: 4061.20, Feb: 2063.07, Mar: 1220.35, Apr: 1552.69, May: 1512.48, Jun: 3866.54, Jul: 1922.76, Aug: 4607.07, Sep: 3516.71, Oct: 1843.79, Nov: 3735.75, Dec: 1826.68]
+
+Store 1 Monthly Totals:
+[Jan: 2260.88, Feb: 1538.83, Mar: 2238.93, Apr: 1837.74, May: 2747.24, Jun: 3335.21, Jul: 494.74, Aug: 3778.63, Sep: 0.00, Oct: 2062.16, Nov: 4135.05, Dec: 1639.97]
+
+Store 10 Monthly Totals:
+[Jan: 3337.78, Feb: 702.43, Mar: 1087.97, Apr: 3989.91, May: 1187.71, Jun: 986.94, Jul: 2870.24, Aug: 1941.86, Sep: 2905.65, Oct: 2389.25, Nov: 1584.51, Dec: 3100.38]
+
+Store 9 Monthly Totals:
+[Jan: 1877.55, Feb: 2357.36, Mar: 3717.71, Apr: 2390.21, May: 2530.99, Jun: 1189.72, Jul: 1523.82, Aug: 2322.07, Sep: 1208.85, Oct: 2701.11, Nov: 3688.21, Dec: 1372.42]
+
+Consumer 7 Aggregate Total: 245574.53
+
+Consumer 8 Local Statistics:
+Store 6 Storewide Total: 24037.94
+Store 7 Storewide Total: 27603.85
+Store 1 Storewide Total: 24483.14
+Store 8 Storewide Total: 24744.32
+Store 4 Storewide Total: 24800.56
+Store 10 Storewide Total: 23106.14
+Store 3 Storewide Total: 20566.92
+Store 5 Storewide Total: 21157.48
+Store 2 Storewide Total: 20262.09
+Store 9 Storewide Total: 24792.04
+
+Store 6 Monthly Totals:
+[Jan: 3808.52, Feb: 2974.81, Mar: 1725.19, Apr: 1260.97, May: 769.59, Jun: 2286.45, Jul: 361.22, Aug: 2837.18, Sep: 3013.89, Oct: 2254.64, Nov: 1931.48, Dec: 814.00]
+
+Store 7 Monthly Totals:
+[Jan: 849.97, Feb: 5476.44, Mar: 2493.68, Apr: 0.00, May: 3714.05, Jun: 2558.39, Jul: 0.00, Aug: 964.29, Sep: 2912.90, Oct: 3536.02, Nov: 2505.11, Dec: 2593.01]
+
+Store 1 Monthly Totals:
+[Jan: 960.66, Feb: 1487.70, Mar: 2388.60, Apr: 2603.08, May: 3335.31, Jun: 2357.29, Jul: 3254.88, Aug: 1535.57, Sep: 1153.38, Oct: 1490.28, Nov: 1963.03, Dec: 1953.36]
+
+Store 8 Monthly Totals:
+[Jan: 2424.75, Feb: 2454.56, Mar: 2360.68, Apr: 483.57, May: 1395.04, Jun: 2325.41, Jul: 2817.48, Aug: 957.25, Sep: 1241.75, Oct: 1280.22, Nov: 2142.30, Dec: 4861.32]
+
+Store 4 Monthly Totals:
+[Jan: 3812.55, Feb: 2547.88, Mar: 1596.21, Apr: 2879.58, May: 378.46, Jun: 1680.20, Jul: 1999.27, Aug: 1078.58, Sep: 1950.93, Oct: 4061.32, Nov: 1638.94, Dec: 1176.66]
+
+Store 10 Monthly Totals:
+[Jan: 1550.26, Feb: 1762.67, Mar: 1496.87, Apr: 2776.93, May: 2762.73, Jun: 1278.92, Jul: 3388.21, Aug: 1022.56, Sep: 1473.82, Oct: 1227.36, Nov: 3402.52, Dec: 963.27]
+
+Store 3 Monthly Totals:
+[Jan: 754.83, Feb: 532.14, Mar: 2431.41, Apr: 2815.46, May: 682.95, Jun: 3235.47, Jul: 1675.69, Aug: 0.00, Sep: 2706.75, Oct: 1792.02, Nov: 2973.11, Dec: 967.10]
+
+Store 5 Monthly Totals:
+[Jan: 1650.46, Feb: 2140.88, Mar: 0.00, Apr: 0.00, May: 1822.94, Jun: 949.34, Jul: 3193.89, Aug: 2193.94, Sep: 3171.72, Oct: 1555.31, Nov: 1810.65, Dec: 2668.35]
+
+Store 2 Monthly Totals:
+[Jan: 2776.44, Feb: 2575.62, Mar: 2716.59, Apr: 1351.35, May: 1678.53, Jun: 2720.98, Jul: 1198.22, Aug: 1277.46, Sep: 1258.35, Oct: 516.58, Nov: 643.91, Dec: 1548.06]
+
+Store 9 Monthly Totals:
+[Jan: 2217.70, Feb: 2226.88, Mar: 1975.27, Apr: 2238.77, May: 964.09, Jun: 2342.64, Jul: 2127.40, Aug: 2976.45, Sep: 3490.86, Oct: 1448.28, Nov: 1585.08, Dec: 1198.64]
+
+Consumer 8 Aggregate Total: 235554.48
+
+Consumer 9 Local Statistics:
+Store 9 Storewide Total: 25502.93
+Store 8 Storewide Total: 20064.99
+Store 2 Storewide Total: 23694.36
+Store 6 Storewide Total: 17739.54
+Store 4 Storewide Total: 20580.93
+Store 5 Storewide Total: 22292.87
+Store 7 Storewide Total: 31882.02
+Store 1 Storewide Total: 23214.67
+Store 10 Storewide Total: 21642.31
+Store 3 Storewide Total: 17145.13
+
+Store 9 Monthly Totals:
+[Jan: 2380.81, Feb: 2654.71, Mar: 4492.74, Apr: 2379.91, May: 756.50, Jun: 1448.11, Jul: 596.84, Aug: 2252.97, Sep: 2730.69, Oct: 1031.98, Nov: 3438.00, Dec: 1339.67]
+
+Store 8 Monthly Totals:
+[Jan: 2484.77, Feb: 537.38, Mar: 2283.81, Apr: 386.89, May: 3284.76, Jun: 1728.05, Jul: 1310.72, Aug: 2833.86, Sep: 1796.75, Oct: 831.45, Nov: 1219.70, Dec: 1366.84]
+
+Store 2 Monthly Totals:
+[Jan: 1367.14, Feb: 2455.15, Mar: 3048.93, Apr: 1045.44, May: 2491.59, Jun: 2096.35, Jul: 2656.18, Aug: 3726.63, Sep: 477.58, Oct: 347.96, Nov: 979.89, Dec: 3001.52]
+
+Store 6 Monthly Totals:
+[Jan: 1245.60, Feb: 1471.84, Mar: 1241.75, Apr: 2210.23, May: 1740.28, Jun: 1175.34, Jul: 2544.29, Aug: 743.11, Sep: 623.07, Oct: 3099.27, Nov: 971.99, Dec: 672.77]
+
+Store 4 Monthly Totals:
+[Jan: 3865.42, Feb: 0.00, Mar: 1392.76, Apr: 915.40, May: 876.34, Jun: 3204.91, Jul: 1301.91, Aug: 3956.97, Sep: 983.98, Oct: 595.59, Nov: 1183.59, Dec: 2304.05]
+
+Store 5 Monthly Totals:
+[Jan: 1251.93, Feb: 2219.18, Mar: 2232.26, Apr: 1685.25, May: 1691.37, Jun: 987.52, Jul: 2724.60, Aug: 2300.85, Sep: 1092.81, Oct: 519.19, Nov: 1620.17, Dec: 3967.75]
+
+Store 7 Monthly Totals:
+[Jan: 2498.98, Feb: 3877.14, Mar: 1363.81, Apr: 3261.46, May: 1932.91, Jun: 2504.04, Jul: 1357.20, Aug: 2754.12, Sep: 3487.96, Oct: 2114.46, Nov: 2962.84, Dec: 3767.12]
+
+Store 1 Monthly Totals:
+[Jan: 2878.34, Feb: 1109.88, Mar: 0.00, Apr: 2037.51, May: 915.66, Jun: 676.89, Jul: 4700.05, Aug: 2415.82, Sep: 3749.45, Oct: 513.69, Nov: 2768.32, Dec: 1449.07]
+
+Store 10 Monthly Totals:
+[Jan: 0.00, Feb: 2927.53, Mar: 1616.30, Apr: 1257.90, May: 3261.32, Jun: 1485.55, Jul: 0.00, Aug: 974.45, Sep: 2254.45, Oct: 6502.64, Nov: 826.06, Dec: 536.11]
+
+Store 3 Monthly Totals:
+[Jan: 1525.44, Feb: 1757.81, Mar: 1702.99, Apr: 2023.77, May: 1351.79, Jun: 2345.02, Jul: 1370.78, Aug: 905.53, Sep: 1863.11, Oct: 1038.11, Nov: 672.48, Dec: 588.31]
+
+Consumer 9 Aggregate Total: 223759.74
+
+Consumer 10 Local Statistics:
+Store 3 Storewide Total: 20142.54
+Store 5 Storewide Total: 29006.21
+Store 1 Storewide Total: 20856.08
+Store 6 Storewide Total: 20367.98
+Store 10 Storewide Total: 21110.73
+Store 2 Storewide Total: 17621.24
+Store 8 Storewide Total: 19588.43
+Store 4 Storewide Total: 22846.98
+Store 7 Storewide Total: 18596.24
+Store 9 Storewide Total: 14524.22
+
+Store 3 Monthly Totals:
+[Jan: 1561.29, Feb: 1716.83, Mar: 4281.67, Apr: 1887.03, May: 406.75, Jun: 715.81, Jul: 1494.03, Aug: 2739.53, Sep: 987.88, Oct: 425.28, Nov: 2773.07, Dec: 1153.35]
+
+Store 5 Monthly Totals:
+[Jan: 1926.65, Feb: 1459.32, Mar: 2786.97, Apr: 1291.93, May: 3202.76, Jun: 2083.99, Jul: 4609.16, Aug: 3247.23, Sep: 691.52, Oct: 3292.80, Nov: 2502.68, Dec: 1911.19]
+
+Store 1 Monthly Totals:
+[Jan: 2267.88, Feb: 265.63, Mar: 1057.86, Apr: 2969.58, May: 1087.26, Jun: 3211.22, Jul: 3053.09, Aug: 2539.76, Sep: 0.00, Oct: 1372.19, Nov: 3013.40, Dec: 18.21]
+
+Store 6 Monthly Totals:
+[Jan: 563.83, Feb: 957.22, Mar: 3069.36, Apr: 1133.68, May: 0.00, Jun: 2806.42, Jul: 641.01, Aug: 1900.52, Sep: 1835.11, Oct: 1003.03, Nov: 2966.86, Dec: 3490.93]
+
+Store 10 Monthly Totals:
+[Jan: 860.45, Feb: 259.23, Mar: 2343.62, Apr: 2723.20, May: 1573.05, Jun: 239.30, Jul: 2897.52, Aug: 1191.06, Sep: 3171.26, Oct: 506.69, Nov: 2137.24, Dec: 3208.12]
+
+Store 2 Monthly Totals:
+[Jan: 0.00, Feb: 592.47, Mar: 2320.47, Apr: 1428.20, May: 199.78, Jun: 1640.59, Jul: 1127.48, Aug: 875.65, Sep: 524.29, Oct: 4021.64, Nov: 2435.66, Dec: 2455.02]
+
+Store 8 Monthly Totals:
+[Jan: 1786.52, Feb: 2397.28, Mar: 345.64, Apr: 696.00, May: 2103.99, Jun: 184.60, Jul: 1331.97, Aug: 1869.68, Sep: 2752.80, Oct: 3533.35, Nov: 2131.19, Dec: 455.39]
+
+Store 4 Monthly Totals:
+[Jan: 206.57, Feb: 3992.98, Mar: 1065.88, Apr: 1670.15, May: 3419.65, Jun: 1785.00, Jul: 2777.61, Aug: 4000.25, Sep: 1379.90, Oct: 937.90, Nov: 721.41, Dec: 889.67]
+
+Store 7 Monthly Totals:
+[Jan: 1547.69, Feb: 469.55, Mar: 2606.52, Apr: 1411.16, May: 1682.60, Jun: 1672.32, Jul: 734.84, Aug: 2254.02, Sep: 287.44, Oct: 2671.68, Nov: 1704.78, Dec: 1553.62]
+
+Store 9 Monthly Totals:
+[Jan: 985.17, Feb: 3253.97, Mar: 2332.54, Apr: 585.42, May: 1845.07, Jun: 538.83, Jul: 671.12, Aug: 708.78, Sep: 1087.78, Oct: 9.72, Nov: 1051.96, Dec: 1453.85]
+
+Consumer 10 Aggregate Total: 204660.64
+
+
+Global Statistics for StoreSimulation(p=10, c=10):
+==================================================
+Store 1 Storewide Total: 258800.41
+Store 2 Storewide Total: 252347.63
+Store 3 Storewide Total: 252101.57
+Store 4 Storewide Total: 264970.09
+Store 5 Storewide Total: 259651.02
+Store 6 Storewide Total: 253196.64
+Store 7 Storewide Total: 254240.73
+Store 8 Storewide Total: 259348.20
+Store 9 Storewide Total: 253362.84
+Store 10 Storewide Total: 255174.95
+
+Store 1 Monthly Totals:
+[Jan: 26917.52, Feb: 22393.24, Mar: 20028.34, Apr: 20391.07, May: 19341.76, Jun: 19785.69, Jul: 25475.42, Aug: 28307.51, Sep: 16984.45, Oct: 15806.95, Nov: 27227.01, Dec: 16141.46]
+
+Store 2 Monthly Totals:
+[Jan: 24775.66, Feb: 21324.35, Mar: 24627.66, Apr: 15206.79, May: 18206.41, Jun: 22074.07, Jul: 20610.04, Aug: 23473.50, Sep: 21978.25, Oct: 19285.70, Nov: 22449.65, Dec: 18335.54]
+
+Store 3 Monthly Totals:
+[Jan: 20748.13, Feb: 18057.77, Mar: 21222.54, Apr: 25418.36, May: 15023.53, Jun: 24233.03, Jul: 19993.65, Aug: 18930.72, Sep: 29122.24, Oct: 16642.88, Nov: 21949.42, Dec: 20759.30]
+
+Store 4 Monthly Totals:
+[Jan: 25911.09, Feb: 25645.80, Mar: 18635.59, Apr: 23017.01, May: 23332.13, Jun: 19847.11, Jul: 22123.30, Aug: 26643.38, Sep: 18023.29, Oct: 25232.38, Nov: 17369.24, Dec: 19189.76]
+
+Store 5 Monthly Totals:
+[Jan: 18211.79, Feb: 26988.14, Mar: 22808.52, Apr: 17556.42, May: 19008.23, Jun: 20002.00, Jul: 26994.29, Aug: 20513.26, Sep: 23613.84, Oct: 19662.05, Nov: 19317.75, Dec: 24974.73]
+
+Store 6 Monthly Totals:
+[Jan: 27400.09, Feb: 20406.44, Mar: 15277.14, Apr: 22979.26, May: 19563.00, Jun: 21768.74, Jul: 15034.26, Aug: 22215.01, Sep: 19740.49, Oct: 26976.21, Nov: 22753.07, Dec: 19082.93]
+
+Store 7 Monthly Totals:
+[Jan: 15323.83, Feb: 17700.85, Mar: 27311.72, Apr: 17201.71, May: 21137.98, Jun: 21042.29, Jul: 18257.99, Aug: 22991.41, Sep: 22929.25, Oct: 21456.21, Nov: 29626.99, Dec: 19260.50]
+
+Store 8 Monthly Totals:
+[Jan: 21609.30, Feb: 20858.53, Mar: 19275.88, Apr: 15944.44, May: 25882.96, Jun: 24924.11, Jul: 19126.73, Aug: 22178.89, Sep: 21734.95, Oct: 20229.73, Nov: 22957.92, Dec: 24624.76]
+
+Store 9 Monthly Totals:
+[Jan: 20213.17, Feb: 22428.37, Mar: 23232.34, Apr: 22028.50, May: 27499.26, Jun: 17484.44, Jul: 18734.12, Aug: 24894.48, Sep: 22244.80, Oct: 15547.04, Nov: 20411.68, Dec: 18644.63]
+
+Store 10 Monthly Totals:
+[Jan: 18010.30, Feb: 23210.77, Mar: 23193.50, Apr: 22794.31, May: 20445.92, Jun: 14338.22, Jul: 15053.45, Aug: 17918.85, Sep: 29481.90, Oct: 27322.97, Nov: 22145.42, Dec: 21259.33]
+
+Aggregate Total: 2563194.08
+Total Simulation Time: 116.33 seconds
+==================================================

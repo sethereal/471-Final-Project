@@ -15,7 +15,7 @@ class SharedBuffer:
             if len(self.__buffer) < self.__capacity:
                 self.__buffer.append(sale)
                 self.__total_items += 1
-                return True
+                return sale
             else:
                 return False
             pass
